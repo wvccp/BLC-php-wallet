@@ -1,11 +1,13 @@
 <?php
 	function GetCoins($addr, $key)
 	{
+	/* Get the IP address for the target host. */
+		$address = gethostbyname('server.bloocoin.org');
+		
 		/* Get the port for the WWW service. */
 		$service_port = 3122;
 
-		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -39,7 +41,7 @@
 		$service_port = 3122;
 
 		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		$address = gethostbyname('server.bloocoin.org');
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -77,7 +79,7 @@
 		$service_port = 3122;
 
 		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		$address = gethostbyname('server.bloocoin.org');
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -111,7 +113,7 @@
 		$service_port = 3122;
 
 		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		$address = gethostbyname('server.bloocoin.org');
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -142,7 +144,7 @@
 		$service_port = 3122;
 
 		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		$address = gethostbyname('server.bloocoin.org');
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
@@ -173,7 +175,7 @@
 		$service_port = 3122;
 
 		/* Get the IP address for the target host. */
-		$address = gethostbyname('bloocoin.zapto.org');
+		$address = gethostbyname('server.bloocoin.org');
 
 		/* Create a TCP/IP socket. */
 		$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
